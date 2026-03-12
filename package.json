@@ -1,9 +1,17 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Ashika Abeysuriya",
+	"description": "A project that does something awesome",
+	"keywords": ["freecodecamp"],
+	"license": "MIT",
+	"version": "1.2.0",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"@freecodecamp/example": "1.1.0",
+
 	},
+
+
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
